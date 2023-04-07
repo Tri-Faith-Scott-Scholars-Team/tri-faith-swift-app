@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585D52DF29DF94DD00EC5C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */; };
+		585D52E129DF94DD00EC5C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */; };
+		585D52E329DF94DD00EC5C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52E229DF94DD00EC5C6D /* ViewController.swift */; };
+		585D52E629DF94DD00EC5C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E429DF94DD00EC5C6D /* Main.storyboard */; };
+		585D52E829DF94DE00EC5C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E729DF94DE00EC5C6D /* Assets.xcassets */; };
+		585D52EB29DF94DE00EC5C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E929DF94DE00EC5C6D /* LaunchScreen.storyboard */; };
+		585D52F629DF94DE00EC5C6D /* tri_faith_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52F529DF94DE00EC5C6D /* tri_faith_applicationTests.swift */; };
+		585D530029DF94DE00EC5C6D /* tri_faith_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52FF29DF94DE00EC5C6D /* tri_faith_applicationUITests.swift */; };
+		585D530229DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D530129DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585D52F229DF94DE00EC5C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585D52D329DF94DD00EC5C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585D52DA29DF94DD00EC5C6D;
+			remoteInfo = "tri-faith-application";
+		};
+		585D52FC29DF94DE00EC5C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585D52D329DF94DD00EC5C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585D52DA29DF94DD00EC5C6D;
+			remoteInfo = "tri-faith-application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585D52DB29DF94DD00EC5C6D /* tri-faith-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tri-faith-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		585D52E229DF94DD00EC5C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585D52E529DF94DD00EC5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585D52E729DF94DE00EC5C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585D52EA29DF94DE00EC5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585D52EC29DF94DE00EC5C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585D52F129DF94DE00EC5C6D /* tri-faith-applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tri-faith-applicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585D52F529DF94DE00EC5C6D /* tri_faith_applicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_faith_applicationTests.swift; sourceTree = "<group>"; };
+		585D52FB29DF94DE00EC5C6D /* tri-faith-applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tri-faith-applicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585D52FF29DF94DE00EC5C6D /* tri_faith_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_faith_applicationUITests.swift; sourceTree = "<group>"; };
+		585D530129DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_faith_applicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585D52D829DF94DD00EC5C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52EE29DF94DE00EC5C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52F829DF94DE00EC5C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585D52D229DF94DD00EC5C6D = {
+			isa = PBXGroup;
+			children = (
+				585D52DD29DF94DD00EC5C6D /* tri-faith-application */,
+				585D52F429DF94DE00EC5C6D /* tri-faith-applicationTests */,
+				585D52FE29DF94DE00EC5C6D /* tri-faith-applicationUITests */,
+				585D52DC29DF94DD00EC5C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585D52DC29DF94DD00EC5C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585D52DB29DF94DD00EC5C6D /* tri-faith-application.app */,
+				585D52F129DF94DE00EC5C6D /* tri-faith-applicationTests.xctest */,
+				585D52FB29DF94DE00EC5C6D /* tri-faith-applicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585D52DD29DF94DD00EC5C6D /* tri-faith-application */ = {
+			isa = PBXGroup;
+			children = (
+				585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */,
+				585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */,
+				585D52E229DF94DD00EC5C6D /* ViewController.swift */,
+				585D52E429DF94DD00EC5C6D /* Main.storyboard */,
+				585D52E729DF94DE00EC5C6D /* Assets.xcassets */,
+				585D52E929DF94DE00EC5C6D /* LaunchScreen.storyboard */,
+				585D52EC29DF94DE00EC5C6D /* Info.plist */,
+			);
+			path = "tri-faith-application";
+			sourceTree = "<group>";
+		};
+		585D52F429DF94DE00EC5C6D /* tri-faith-applicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				585D52F529DF94DE00EC5C6D /* tri_faith_applicationTests.swift */,
+			);
+			path = "tri-faith-applicationTests";
+			sourceTree = "<group>";
+		};
+		585D52FE29DF94DE00EC5C6D /* tri-faith-applicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585D52FF29DF94DE00EC5C6D /* tri_faith_applicationUITests.swift */,
+				585D530129DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift */,
+			);
+			path = "tri-faith-applicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585D52DA29DF94DD00EC5C6D /* tri-faith-application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585D530529DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-application" */;
+			buildPhases = (
+				585D52D729DF94DD00EC5C6D /* Sources */,
+				585D52D829DF94DD00EC5C6D /* Frameworks */,
+				585D52D929DF94DD00EC5C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tri-faith-application";
+			productName = "tri-faith-application";
+			productReference = 585D52DB29DF94DD00EC5C6D /* tri-faith-application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585D52F029DF94DE00EC5C6D /* tri-faith-applicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585D530829DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-applicationTests" */;
+			buildPhases = (
+				585D52ED29DF94DE00EC5C6D /* Sources */,
+				585D52EE29DF94DE00EC5C6D /* Frameworks */,
+				585D52EF29DF94DE00EC5C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585D52F329DF94DE00EC5C6D /* PBXTargetDependency */,
+			);
+			name = "tri-faith-applicationTests";
+			productName = "tri-faith-applicationTests";
+			productReference = 585D52F129DF94DE00EC5C6D /* tri-faith-applicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585D52FA29DF94DE00EC5C6D /* tri-faith-applicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585D530B29DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-applicationUITests" */;
+			buildPhases = (
+				585D52F729DF94DE00EC5C6D /* Sources */,
+				585D52F829DF94DE00EC5C6D /* Frameworks */,
+				585D52F929DF94DE00EC5C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585D52FD29DF94DE00EC5C6D /* PBXTargetDependency */,
+			);
+			name = "tri-faith-applicationUITests";
+			productName = "tri-faith-applicationUITests";
+			productReference = 585D52FB29DF94DE00EC5C6D /* tri-faith-applicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585D52D329DF94DD00EC5C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					585D52DA29DF94DD00EC5C6D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					585D52F029DF94DE00EC5C6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 585D52DA29DF94DD00EC5C6D;
+					};
+					585D52FA29DF94DE00EC5C6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 585D52DA29DF94DD00EC5C6D;
+					};
+				};
+			};
+			buildConfigurationList = 585D52D629DF94DD00EC5C6D /* Build configuration list for PBXProject "tri-faith-application" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585D52D229DF94DD00EC5C6D;
+			productRefGroup = 585D52DC29DF94DD00EC5C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585D52DA29DF94DD00EC5C6D /* tri-faith-application */,
+				585D52F029DF94DE00EC5C6D /* tri-faith-applicationTests */,
+				585D52FA29DF94DE00EC5C6D /* tri-faith-applicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585D52D929DF94DD00EC5C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585D52EB29DF94DE00EC5C6D /* LaunchScreen.storyboard in Resources */,
+				585D52E829DF94DE00EC5C6D /* Assets.xcassets in Resources */,
+				585D52E629DF94DD00EC5C6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52EF29DF94DE00EC5C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52F929DF94DE00EC5C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585D52D729DF94DD00EC5C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585D52E329DF94DD00EC5C6D /* ViewController.swift in Sources */,
+				585D52DF29DF94DD00EC5C6D /* AppDelegate.swift in Sources */,
+				585D52E129DF94DD00EC5C6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52ED29DF94DE00EC5C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585D52F629DF94DE00EC5C6D /* tri_faith_applicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585D52F729DF94DE00EC5C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585D530229DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift in Sources */,
+				585D530029DF94DE00EC5C6D /* tri_faith_applicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585D52F329DF94DE00EC5C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585D52DA29DF94DD00EC5C6D /* tri-faith-application */;
+			targetProxy = 585D52F229DF94DE00EC5C6D /* PBXContainerItemProxy */;
+		};
+		585D52FD29DF94DE00EC5C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585D52DA29DF94DD00EC5C6D /* tri-faith-application */;
+			targetProxy = 585D52FC29DF94DE00EC5C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		585D52E429DF94DD00EC5C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585D52E529DF94DD00EC5C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585D52E929DF94DE00EC5C6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585D52EA29DF94DE00EC5C6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585D530329DF94DE00EC5C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585D530429DF94DE00EC5C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585D530629DF94DE00EC5C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tri-faith-application/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585D530729DF94DE00EC5C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tri-faith-application/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585D530929DF94DE00EC5C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tri-faith-application.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tri-faith-application";
+			};
+			name = Debug;
+		};
+		585D530A29DF94DE00EC5C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tri-faith-application.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tri-faith-application";
+			};
+			name = Release;
+		};
+		585D530C29DF94DE00EC5C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tri-faith-application";
+			};
+			name = Debug;
+		};
+		585D530D29DF94DE00EC5C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KRQ69XV8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.prestonhigg17.tri-faith-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tri-faith-application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585D52D629DF94DD00EC5C6D /* Build configuration list for PBXProject "tri-faith-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585D530329DF94DE00EC5C6D /* Debug */,
+				585D530429DF94DE00EC5C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585D530529DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585D530629DF94DE00EC5C6D /* Debug */,
+				585D530729DF94DE00EC5C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585D530829DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-applicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585D530929DF94DE00EC5C6D /* Debug */,
+				585D530A29DF94DE00EC5C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585D530B29DF94DE00EC5C6D /* Build configuration list for PBXNativeTarget "tri-faith-applicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585D530C29DF94DE00EC5C6D /* Debug */,
+				585D530D29DF94DE00EC5C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585D52D329DF94DD00EC5C6D /* Project object */;
+}

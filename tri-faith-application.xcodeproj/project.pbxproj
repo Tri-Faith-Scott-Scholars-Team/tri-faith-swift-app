@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		585D52DF29DF94DD00EC5C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */; };
 		585D52E129DF94DD00EC5C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */; };
-		585D52E329DF94DD00EC5C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52E229DF94DD00EC5C6D /* ViewController.swift */; };
+		585D52E329DF94DD00EC5C6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52E229DF94DD00EC5C6D /* HomeViewController.swift */; };
 		585D52E629DF94DD00EC5C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E429DF94DD00EC5C6D /* Main.storyboard */; };
 		585D52E829DF94DE00EC5C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E729DF94DE00EC5C6D /* Assets.xcassets */; };
 		585D52EB29DF94DE00EC5C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D52E929DF94DE00EC5C6D /* LaunchScreen.storyboard */; };
 		585D52F629DF94DE00EC5C6D /* tri_faith_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52F529DF94DE00EC5C6D /* tri_faith_applicationTests.swift */; };
 		585D530029DF94DE00EC5C6D /* tri_faith_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D52FF29DF94DE00EC5C6D /* tri_faith_applicationUITests.swift */; };
 		585D530229DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D530129DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift */; };
+		585D530F29E8FF1D00EC5C6D /* ChurchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D530E29E8FF1D00EC5C6D /* ChurchViewController.swift */; };
+		585D531129E8FF2800EC5C6D /* MosqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D531029E8FF2800EC5C6D /* MosqueViewController.swift */; };
+		585D531329E8FF3300EC5C6D /* GetInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D531229E8FF3300EC5C6D /* GetInvolvedViewController.swift */; };
+		585D531529E8FF3B00EC5C6D /* TempleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D531429E8FF3B00EC5C6D /* TempleViewController.swift */; };
+		585D531729E8FF7400EC5C6D /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D531629E8FF7400EC5C6D /* GardenViewController.swift */; };
+		585D531929E8FFE300EC5C6D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D531829E8FFE300EC5C6D /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		585D52DB29DF94DD00EC5C6D /* tri-faith-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tri-faith-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		585D52E229DF94DD00EC5C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585D52E229DF94DD00EC5C6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		585D52E529DF94DD00EC5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		585D52E729DF94DE00EC5C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585D52EA29DF94DE00EC5C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		585D52FB29DF94DE00EC5C6D /* tri-faith-applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tri-faith-applicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585D52FF29DF94DE00EC5C6D /* tri_faith_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_faith_applicationUITests.swift; sourceTree = "<group>"; };
 		585D530129DF94DE00EC5C6D /* tri_faith_applicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_faith_applicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		585D530E29E8FF1D00EC5C6D /* ChurchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchViewController.swift; sourceTree = "<group>"; };
+		585D531029E8FF2800EC5C6D /* MosqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueViewController.swift; sourceTree = "<group>"; };
+		585D531229E8FF3300EC5C6D /* GetInvolvedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInvolvedViewController.swift; sourceTree = "<group>"; };
+		585D531429E8FF3B00EC5C6D /* TempleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleViewController.swift; sourceTree = "<group>"; };
+		585D531629E8FF7400EC5C6D /* GardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		585D531829E8FFE300EC5C6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +113,14 @@
 			children = (
 				585D52DE29DF94DD00EC5C6D /* AppDelegate.swift */,
 				585D52E029DF94DD00EC5C6D /* SceneDelegate.swift */,
-				585D52E229DF94DD00EC5C6D /* ViewController.swift */,
+				585D52E229DF94DD00EC5C6D /* HomeViewController.swift */,
+				585D531629E8FF7400EC5C6D /* GardenViewController.swift */,
 				585D52E429DF94DD00EC5C6D /* Main.storyboard */,
+				585D531829E8FFE300EC5C6D /* WelcomeViewController.swift */,
+				585D530E29E8FF1D00EC5C6D /* ChurchViewController.swift */,
+				585D531029E8FF2800EC5C6D /* MosqueViewController.swift */,
+				585D531229E8FF3300EC5C6D /* GetInvolvedViewController.swift */,
+				585D531429E8FF3B00EC5C6D /* TempleViewController.swift */,
 				585D52E729DF94DE00EC5C6D /* Assets.xcassets */,
 				585D52E929DF94DE00EC5C6D /* LaunchScreen.storyboard */,
 				585D52EC29DF94DE00EC5C6D /* Info.plist */,
@@ -258,9 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585D52E329DF94DD00EC5C6D /* ViewController.swift in Sources */,
+				585D531929E8FFE300EC5C6D /* WelcomeViewController.swift in Sources */,
+				585D52E329DF94DD00EC5C6D /* HomeViewController.swift in Sources */,
+				585D530F29E8FF1D00EC5C6D /* ChurchViewController.swift in Sources */,
+				585D531329E8FF3300EC5C6D /* GetInvolvedViewController.swift in Sources */,
 				585D52DF29DF94DD00EC5C6D /* AppDelegate.swift in Sources */,
 				585D52E129DF94DD00EC5C6D /* SceneDelegate.swift in Sources */,
+				585D531729E8FF7400EC5C6D /* GardenViewController.swift in Sources */,
+				585D531129E8FF2800EC5C6D /* MosqueViewController.swift in Sources */,
+				585D531529E8FF3B00EC5C6D /* TempleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

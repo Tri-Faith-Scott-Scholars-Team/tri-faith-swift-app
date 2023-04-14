@@ -11,6 +11,7 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //making some test code here
 
         // Do any additional setup after loading the view.
     }

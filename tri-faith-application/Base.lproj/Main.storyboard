@@ -72,12 +72,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Welcome to Tri Faith" largeTitleDisplayMode="always" id="nPZ-PO-qwA">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="kK4-CS-tWp">
+                        <barButtonItem key="leftBarButtonItem" title="Countryside Church" style="plain" id="kK4-CS-tWp">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="HAr-j6-df4">
                                 <rect key="frame" x="16" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Church"/>
                                 <connections>
                                     <segue destination="PRw-tn-qS1" kind="show" id="vyv-ih-XXt"/>
                                 </connections>
@@ -87,7 +87,7 @@
                             <rect key="frame" x="143" y="5" width="107" height="34.333333333333336"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="Temple"/>
                             <connections>
                                 <segue destination="wFt-iJ-8Mx" kind="show" id="zTt-50-A2V"/>
                             </connections>
@@ -97,7 +97,7 @@
                                 <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Mosque"/>
                                 <connections>
                                     <segue destination="7sl-6l-Tyg" kind="show" id="Ahv-ZH-hvF"/>
                                 </connections>
@@ -132,7 +132,9 @@ Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprof
                         <viewLayoutGuide key="safeArea" id="KHe-qy-kvb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Mosque" id="xgx-l2-zWx"/>
+                    <navigationItem key="navigationItem" title="Mosque" id="xgx-l2-zWx">
+                        <barButtonItem key="backBarButtonItem" title="    " id="Jo5-Wm-4AD"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CaY-hD-EUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,7 +150,9 @@ Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprof
                         <viewLayoutGuide key="safeArea" id="hhI-9T-CCg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Temple" id="1YP-vy-TEl"/>
+                    <navigationItem key="navigationItem" title="Temple Israel" id="1YP-vy-TEl">
+                        <barButtonItem key="backBarButtonItem" title="        " id="5iS-Ah-jig"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auy-JW-0sz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,10 +165,24 @@ Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprof
                     <view key="view" contentMode="scaleToFill" id="XLu-Qk-bE3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6W-56-1rd">
+                                <rect key="frame" x="27" y="182" width="350" height="567"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Countryside Community Church (CCC) is an inclusive, open and affirming family of faith, welcoming all to God’s table of love and acceptance. Its members are diverse, yet united by Christ’s example, caring for one another, supporting one another, and challenging one another to become all that God creates us to be.
+
+The church was founded in Omaha in 1949 and is a part of the United Church of Christ, which is known as the oldest denomination in the United States (going back to the Pilgrims). Countryside’s Sunday worship service is held weekly at 10:00 AM in their sanctuary. All are welcome. Construction began in June of 2017, and the new church building opened its doors on April 7, 2019.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mrL-Nw-TOv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Church" id="nZ8-WG-2pZ"/>
+                    <navigationItem key="navigationItem" title="Countryside Church" id="nZ8-WG-2pZ">
+                        <barButtonItem key="backBarButtonItem" title="        " id="Rng-gG-I6P"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5hP-U9-mvo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

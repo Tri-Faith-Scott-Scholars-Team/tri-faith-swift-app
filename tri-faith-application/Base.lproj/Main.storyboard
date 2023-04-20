@@ -73,7 +73,7 @@
                     <navigationItem key="navigationItem" title="Welcome to Tri Faith" largeTitleDisplayMode="always" id="nPZ-PO-qwA">
                         <barButtonItem key="leftBarButtonItem" title="Countryside Church" style="plain" id="kK4-CS-tWp">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="HAr-j6-df4">
-                                <rect key="frame" x="16" y="5" width="87" height="34.333333333333336"/>
+                                <rect key="frame" x="16" y="5" width="79.333333333333329" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Church">
@@ -84,11 +84,11 @@
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FTQ-xp-rUq">
-                            <rect key="frame" x="143" y="5" width="107" height="34.333333333333336"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FTQ-xp-rUq">
+                            <rect key="frame" x="156.66666666666666" y="5" width="79.666666666666657" height="34.333333333333336"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="filled" title="Temple">
+                            <buttonConfiguration key="configuration" style="filled" title="Temple" titleAlignment="leading">
                                 <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                             </buttonConfiguration>
                             <connections>
@@ -97,7 +97,7 @@
                         </button>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="iDi-NT-Iap">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jMA-gJ-Ktk">
-                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
+                                <rect key="frame" x="291.66666666666669" y="5" width="85.333333333333314" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Mosque">

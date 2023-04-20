@@ -100,14 +100,15 @@
         <scene sceneID="vDh-Rh-8q5">
             <objects>
                 <tabBarController id="5dr-GV-u4R" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LBo-2y-mRv">
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="FbN-VP-APu"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="centered" id="LBo-2y-mRv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="Df7-vW-eKz" kind="relationship" relationship="viewControllers" id="TuJ-di-fag"/>
                         <segue destination="xNl-Zg-IE2" kind="relationship" relationship="viewControllers" id="hw5-YQ-U2A"/>
-                        <segue destination="LQH-4B-c6b" kind="relationship" relationship="viewControllers" id="7Yr-MO-Ive"/>
                         <segue destination="tox-gd-uWs" kind="relationship" relationship="viewControllers" id="VVf-hs-zv1"/>
                     </connections>
                 </tabBarController>
@@ -122,16 +123,20 @@
                     <view key="view" contentMode="scaleToFill" id="GnB-0c-KnV">
                         <rect key="frame" x="0.0" y="0.0" width="392" height="671"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-fs-dL9">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <viewLayoutGuide key="safeArea" id="EwI-Gl-0P8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Welcome to Tri Faith" largeTitleDisplayMode="always" id="nPZ-PO-qwA">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="kK4-CS-tWp">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="HAr-j6-df4">
+                                <rect key="frame" x="16" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Test">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.098648469279999998" green="0.76859849690000004" blue="0.080741194249999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <segue destination="PRw-tn-qS1" kind="show" id="vyv-ih-XXt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="947-y7-eco"/>
@@ -140,12 +145,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lk-3R-Cwi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="-382"/>
+            <point key="canvasLocation" x="1690.8396946564885" y="-37.323943661971832"/>
         </scene>
         <!--Mosque View Controller-->
         <scene sceneID="TFp-qf-JCq">
             <objects>
-                <viewController id="7sl-6l-Tyg" userLabel="Mosque View Controller" customClass="MosqueViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Mosque" id="7sl-6l-Tyg" userLabel="Mosque View Controller" customClass="MosqueViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iqx-wc-tDl">
                         <rect key="frame" x="0.0" y="0.0" width="392" height="678"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,10 +166,11 @@
                         <viewLayoutGuide key="safeArea" id="KHe-qy-kvb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Mosque" id="xgx-l2-zWx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CaY-hD-EUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816" y="255"/>
+            <point key="canvasLocation" x="2453" y="654"/>
         </scene>
         <!--Temple View Controller-->
         <scene sceneID="zV6-VS-Lpr">
@@ -206,6 +212,7 @@ The congregation was founded in 1871 and  nearly 700 families are members toda
                         <viewLayoutGuide key="safeArea" id="hhI-9T-CCg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Temple" id="1YP-vy-TEl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auy-JW-0sz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,10 +237,30 @@ The congregation was founded in 1871 and  nearly 700 families are members toda
                         <viewLayoutGuide key="safeArea" id="mrL-Nw-TOv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Church" id="nZ8-WG-2pZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5hP-U9-mvo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2990" y="-357"/>
+            <point key="canvasLocation" x="4211.4503816793895" y="-601.4084507042254"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="N2W-fh-LKy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Df7-vW-eKz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="1UB-d2-zmf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="GEu-Ky-U7C">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9J5-8S-AgT" kind="relationship" relationship="rootViewController" id="2cX-WO-jCG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJn-PP-n0m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="-37"/>
         </scene>
     </scenes>
     <resources>

@@ -43,28 +43,28 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djF-rk-rHN" userLabel="Welcome View">
-                                <rect key="frame" x="0.0" y="98" width="393" height="671"/>
+                                <rect key="frame" x="0.0" y="97" width="392" height="671"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="9J5-8S-AgT" kind="embed" id="ASn-OZ-0P8"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSF-Sa-7EW" userLabel="Church View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="87" width="392" height="678"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="PRw-tn-qS1" kind="embed" id="zDI-41-Iwn"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DkV-cU-Vn6" userLabel="Mosque View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="87" width="392" height="678"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="7sl-6l-Tyg" kind="embed" id="xr6-2S-qyI"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JlM-ra-277" userLabel="Temple View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="87" width="392" height="678"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="wFt-iJ-8Mx" kind="embed" id="pCk-I3-UKc"/>
@@ -120,7 +120,7 @@
             <objects>
                 <viewController id="9J5-8S-AgT" userLabel="Welcome View Controller" customClass="WelcomeViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GnB-0c-KnV">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="671"/>
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="671"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-fs-dL9">
@@ -147,7 +147,7 @@
             <objects>
                 <viewController id="7sl-6l-Tyg" userLabel="Mosque View Controller" customClass="MosqueViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iqx-wc-tDl">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="678"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Le Mosque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVb-MH-VAY">
@@ -171,7 +171,7 @@
             <objects>
                 <viewController id="wFt-iJ-8Mx" userLabel="Temple View Controller" customClass="TempleViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jjc-Td-zT8">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="678"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3f-Ks-4ZD">
@@ -192,8 +192,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7B5-Ml-cjJ">
                                 <rect key="frame" x="8" y="233" width="309" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Temple Israel is a Reform Jewish congregation  that strives to bridge tradition and modernity,  linking cherished Jewish history with fresh  approaches to spirituality, lifelong Jewish  learning, and acts of justice.
-The congregation was founded in 1871 and  nearly 700 families are members today.  Temple Israel is the first of the Tri-Faith Initiative  partners to build on the commons. The  congregation dedicated its new synagogue in  October 2013.</mutableString>
+                                <string key="text">Temple Israel is a Reform Jewish congregation  that strives to bridge tradition and modernity,  linking cherished Jewish history with fresh  approaches to spirituality, lifelong Jewish  learning, and acts of justice.
+The congregation was founded in 1871 and  nearly 700 families are members today.  Temple Israel is the first of the Tri-Faith Initiative  partners to build on the commons. The  congregation dedicated its new synagogue in  October 2013.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -216,7 +216,7 @@ The congregation was founded in 1871 and  nearly 700 families are members toda
             <objects>
                 <viewController id="PRw-tn-qS1" userLabel="Church View Controller" customClass="ChurchViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XLu-Qk-bE3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="678"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Da Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pp-4B-5eH">

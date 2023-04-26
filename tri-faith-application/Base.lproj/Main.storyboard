@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -84,7 +85,7 @@
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FTQ-xp-rUq">
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FTQ-xp-rUq">
                             <rect key="frame" x="156.66666666666666" y="5" width="79.666666666666657" height="34.333333333333336"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
@@ -171,16 +172,21 @@ Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprof
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6W-56-1rd">
-                                <rect key="frame" x="27" y="182" width="350" height="567"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6W-56-1rd">
+                                <rect key="frame" x="7" y="300" width="287" height="447"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Countryside Community Church (CCC) is an inclusive, open and affirming family of faith, welcoming all to God’s table of love and acceptance. Its members are diverse, yet united by Christ’s example, caring for one another, supporting one another, and challenging one another to become all that God creates us to be.
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <string key="text">Countryside Community Church (CCC) is an inclusive, open and affirming family of faith, welcoming all to God’s table of love and acceptance. Its members are diverse, yet united by Christ’s example, caring for one another, supporting one another, and challenging one another to become all that God creates us to be.
 
-The church was founded in Omaha in 1949 and is a part of the United Church of Christ, which is known as the oldest denomination in the United States (going back to the Pilgrims). Countryside’s Sunday worship service is held weekly at 10:00 AM in their sanctuary. All are welcome. Construction began in June of 2017, and the new church building opened its doors on April 7, 2019.</mutableString>
+The church was founded in Omaha in 1949 and is a part of the United Church of Christ, which is known as the oldest denomination in the United States (going back to the Pilgrims). Countryside’s Sunday worship service is held weekly at 10:00 AM in their sanctuary. All are welcome. Construction began in June of 2017, and the new church building opened its doors on April 7, 2019.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trifaithimage" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b2F-5K-HVz">
+                                <rect key="frame" x="102" y="143" width="291" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mrL-Nw-TOv"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -223,6 +229,7 @@ The church was founded in Omaha in 1949 and is a part of the United Church of Ch
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.2.fill" catalog="system" width="128" height="81"/>
+        <image name="trifaithimage" width="1800" height="1200"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

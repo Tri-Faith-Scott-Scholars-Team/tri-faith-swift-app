@@ -50,21 +50,21 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSF-Sa-7EW" userLabel="Church View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="86" width="393" height="680"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="PRw-tn-qS1" kind="embed" id="zDI-41-Iwn"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DkV-cU-Vn6" userLabel="Mosque View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="86" width="393" height="680"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="7sl-6l-Tyg" kind="embed" id="xr6-2S-qyI"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JlM-ra-277" userLabel="Temple View">
-                                <rect key="frame" x="0.0" y="87" width="393" height="679"/>
+                                <rect key="frame" x="0.0" y="86" width="393" height="680"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="wFt-iJ-8Mx" kind="embed" id="pCk-I3-UKc"/>
@@ -147,33 +147,46 @@
             <objects>
                 <viewController id="7sl-6l-Tyg" userLabel="Mosque View Controller" customClass="MosqueViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iqx-wc-tDl">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nU4-Sq-lcx">
-                                <rect key="frame" x="33" y="185" width="321" height="221"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="American Muslim Institute" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="364-rQ-DEa">
+                                <rect key="frame" x="95" y="30" width="197" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The American Muslim Institute’s (AMI) mission is to promote a better understanding of Islam in the Western world. AMI’s educational, religious, and social programs are grounded in faith and the core values of Islam: acceptance, compassion, equality, justice, and peace.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trifaith-featureimage-ami" translatesAutoresizingMaskIntoConstraints="NO" id="hZC-OO-xgM">
+                                <rect key="frame" x="76" y="97" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9S-BG-XbQ">
+                                <rect key="frame" x="24" y="76" width="345" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <mutableString key="text">The American Muslim Institute’s (AMI) mission is to promote a better understanding of Islam in the Western world. AMI’s educational, religious, and social programs are grounded in faith and the core values of Islam: acceptance, compassion, equality, justice, and peace.
+
+Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprofit organization. The mosque and community center on the Tri-Faith Commons serves as a worship space and Islamic institute for Omaha’s growing Muslim population. Construction began in 2015 and the building opened in May of 2017.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KHe-qy-kvb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CaY-hD-EUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814.5038167938931" y="254.57746478873241"/>
+            <point key="canvasLocation" x="1814.5038167938931" y="254.22535211267606"/>
         </scene>
         <!--Temple View Controller-->
         <scene sceneID="zV6-VS-Lpr">
             <objects>
                 <viewController id="wFt-iJ-8Mx" userLabel="Temple View Controller" customClass="TempleViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jjc-Td-zT8">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="hhI-9T-CCg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -188,7 +201,7 @@
             <objects>
                 <viewController id="PRw-tn-qS1" userLabel="Church View Controller" customClass="ChurchViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XLu-Qk-bE3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="679"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="mrL-Nw-TOv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -203,8 +216,15 @@
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.2.fill" catalog="system" width="128" height="81"/>
+        <image name="trifaith-featureimage-ami" width="2048" height="1152"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

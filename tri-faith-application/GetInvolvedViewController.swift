@@ -6,11 +6,22 @@
 //
 
 import UIKit
+import WebKit
 
 class GetInvolvedViewController: UIViewController {
 
+    
+    @IBOutlet weak var getInvolvedWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var myURL: URL!
+        myURL = URL(string: "https://www.trifaith.org/getinvolved/")
+        let myRequest = URLRequest(url: myURL!)
+        getInvolvedWebView.load(myRequest)
+        
+        
 
         // Do any additional setup after loading the view.
     }

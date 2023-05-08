@@ -127,12 +127,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trifaith-map 2023-05-07 23_37_16" translatesAutoresizingMaskIntoConstraints="NO" id="e49-L5-zPb">
-                                <rect key="frame" x="0.0" y="275" width="393" height="422"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trifaith-map-final" translatesAutoresizingMaskIntoConstraints="NO" id="e49-L5-zPb">
+                                <rect key="frame" x="0.0" y="118" width="393" height="422"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FTQ-xp-rUq">
-                                <rect key="frame" x="217" y="296" width="97" height="34"/>
+                                <rect key="frame" x="280" y="506" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Temple" titleAlignment="leading">
@@ -142,19 +142,19 @@
                                     <segue destination="wFt-iJ-8Mx" kind="show" id="zTt-50-A2V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="MQ5-5q-lq3">
-                                <rect key="frame" x="54" y="645" width="79.333333333333329" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Church">
-                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="AkH-FP-yvU">
-                                <rect key="frame" x="16" y="362" width="96" height="34"/>
+                                <rect key="frame" x="148" y="506" width="96" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Mosque">
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="MQ5-5q-lq3">
+                                <rect key="frame" x="35" y="505" width="79.333333333333329" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Church">
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                             </button>
@@ -189,9 +189,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT2-fh-3GI">
                                 <rect key="frame" x="24" y="443" width="345" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The American Muslim Institute’s (AMI) mission is to promote a better understanding of Islam in the Western world. AMI’s educational, religious, and social programs are grounded in faith and the core values of Islam: acceptance, compassion, equality, justice, and peace.
+                                <string key="text">The American Muslim Institute’s (AMI) mission is to promote a better understanding of Islam in the Western world. AMI’s educational, religious, and social programs are grounded in faith and the core values of Islam: acceptance, compassion, equality, justice, and peace.
 
-Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprofit organization. The mosque and community center on the Tri-Faith Commons serves as a worship space and Islamic institute for Omaha’s growing Muslim population. Construction began in 2015 and the building opened in May of 2017.</mutableString>
+Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprofit organization. The mosque and community center on the Tri-Faith Commons serves as a worship space and Islamic institute for Omaha’s growing Muslim population. Construction began in 2015 and the building opened in May of 2017.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -248,9 +248,9 @@ Founded in Omaha in 2006, AMI is a local, non-denominational, autonomous nonprof
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3O-fM-6x3">
                                 <rect key="frame" x="37" y="412" width="319" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Temple Israel is a Reform Jewish  congregation that strives to bridge  tradition and modernity, linking cherished  Jewish history with fresh approaches to  spirituality, lifelong Jewish learning, and  acts of justice.
+                                <string key="text">Temple Israel is a Reform Jewish  congregation that strives to bridge  tradition and modernity, linking cherished  Jewish history with fresh approaches to  spirituality, lifelong Jewish learning, and  acts of justice.
 
-The congregation was founded in 1871  and nearly 700 families are members  today. Temple Israel is the first of the  Tri-Faith Initiative partners to build on  the commons. The congregation  dedicated its new synagogue  in October 2013.</mutableString>
+The congregation was founded in 1871  and nearly 700 families are members  today. Temple Israel is the first of the  Tri-Faith Initiative partners to build on  the commons. The congregation  dedicated its new synagogue  in October 2013.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -286,9 +286,9 @@ The congregation was founded in 1871  and nearly 700 families are members  t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K0-bW-NTc">
                                 <rect key="frame" x="12" y="398" width="368" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Countryside Community Church (CCC) is an inclusive, open and affirming family of faith, welcoming all to God’s table of love and acceptance. Its members are diverse, yet united by Christ’s example, caring for one another, supporting one another, and challenging one another to become all that God creates us to be.
+                                <string key="text">Countryside Community Church (CCC) is an inclusive, open and affirming family of faith, welcoming all to God’s table of love and acceptance. Its members are diverse, yet united by Christ’s example, caring for one another, supporting one another, and challenging one another to become all that God creates us to be.
 
-The church was founded in Omaha in 1949 and is a part of the United Church of Christ, which is known as the oldest denomination in the United States (going back to the Pilgrims). Countryside’s Sunday worship service is held weekly at 10:00 AM in their sanctuary. All are welcome. Construction began in June of 2017, and the new church building opened its doors on April 7, 2019.</mutableString>
+The church was founded in Omaha in 1949 and is a part of the United Church of Christ, which is known as the oldest denomination in the United States (going back to the Pilgrims). Countryside’s Sunday worship service is held weekly at 10:00 AM in their sanctuary. All are welcome. Construction began in June of 2017, and the new church building opened its doors on April 7, 2019.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -344,12 +344,12 @@ The church was founded in Omaha in 1949 and is a part of the United Church of Ch
         </scene>
     </scenes>
     <resources>
-        <image name="Trifaith-map 2023-05-07 23_37_16" width="1873" height="1859"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.2.fill" catalog="system" width="128" height="81"/>
         <image name="trifaith-featureimage-ami" width="2048" height="1152"/>
         <image name="trifaith-garden" width="1024" height="684"/>
+        <image name="trifaith-map-final" width="651" height="407"/>
         <image name="trifaith-temple-gallery-01" width="2048" height="1152"/>
         <image name="trifaithimage" width="1800" height="1200"/>
         <systemColor name="systemGreenColor">

@@ -13,7 +13,7 @@
             <objects>
                 <viewController title="Get Involved" id="tox-gd-uWs" customClass="GetInvolvedViewController" customModule="tri_faith_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iwv-wY-U3Y">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4p-fH-idV">
@@ -30,6 +30,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Get Involved" image="person.2.fill" catalog="system" id="6Pb-8p-jLW"/>
+                    <navigationItem key="navigationItem" id="JtF-sR-2wG"/>
                     <connections>
                         <outlet property="getInvolvedWebView" destination="x4p-fH-idV" id="WdH-8R-edb"/>
                     </connections>
@@ -82,6 +83,11 @@ All produce is donated to community pantries and  families in need! </string>
                                 <buttonConfiguration key="configuration" style="tinted" title="Join Now!">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tox-gd-uWs" kind="popoverPresentation" popoverAnchorView="f69-tH-rsE" id="k8F-ow-ulq">
+                                        <popoverArrowDirection key="popoverArrowDirection" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="no gardening experience needed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxK-7T-HRX">
                                 <rect key="frame" x="70" y="748" width="251" height="21"/>
@@ -342,6 +348,9 @@ The church was founded in Omaha in 1949 and is a part of the United Church of Ch
             <point key="canvasLocation" x="737" y="-37"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="k8F-ow-ulq"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="pencil" catalog="system" width="128" height="113"/>

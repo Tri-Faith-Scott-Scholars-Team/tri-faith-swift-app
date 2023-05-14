@@ -135,12 +135,20 @@ All produce is donated to community pantries and  families in need! </string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kr-pi-8Ba">
+                                <rect key="frame" x="4" y="163" width="384" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trifaith-map-final" translatesAutoresizingMaskIntoConstraints="NO" id="5lj-FE-aw4">
-                                <rect key="frame" x="9" y="288" width="384" height="236"/>
+                                <rect key="frame" x="4" y="168" width="384" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3m-bl-hJy">
-                                <rect key="frame" x="16" y="288" width="71" height="93"/>
+                                <rect key="frame" x="11" y="168" width="71" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -151,7 +159,7 @@ All produce is donated to community pantries and  families in need! </string>
                                 </connections>
                             </label>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVp-L2-wYx">
-                                <rect key="frame" x="9" y="445" width="147" height="79"/>
+                                <rect key="frame" x="4" y="325" width="147" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -162,7 +170,7 @@ All produce is donated to community pantries and  families in need! </string>
                                 </connections>
                             </label>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSE-zl-U29">
-                                <rect key="frame" x="212" y="288" width="136" height="107"/>
+                                <rect key="frame" x="207" y="168" width="136" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -171,6 +179,18 @@ All produce is donated to community pantries and  families in need! </string>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="I5Z-PO-o6u" appends="YES" id="dSt-i6-QYd"/>
                                 </connections>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71w-JO-Xrf">
+                                <rect key="frame" x="37" y="429" width="318" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Seventeen years ago, many said it could not be done — anywhere. Tri-Faith Initiative is a one-of-a-kind, ambitious interfaith project in design, scale, and scope.
+
+Yet, it’s thriving. Today, Tri-Faith Initiative brings together in permanent residency a synagogue, church, mosque, and interfaith center on one 38-acre campus in America’s heartland.
+
+From this intentionally diverse space in Omaha, we bridge divides among three faith communities, neighbors throughout our larger local community, and, increasingly, people across the U.S. and around the world.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EwI-Gl-0P8"/>
